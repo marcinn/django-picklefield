@@ -1,9 +1,8 @@
 from pkg_resources import packaging
 
 from .constants import DEFAULT_PROTOCOL
-from .fields import PickledObjectField
 
-__all__ = 'VERSION', '__version__', 'DEFAULT_PROTOCOL', 'PickledObjectField'
+__all__ = 'VERSION', '__version__', 'DEFAULT_PROTOCOL'
 
 VERSION = (3, 0, 2, 'dev', 1)
 
